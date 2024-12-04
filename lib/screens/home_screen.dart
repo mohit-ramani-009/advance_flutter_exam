@@ -54,8 +54,10 @@ class _HomeScreenState extends State<HomeScreen> {
             var country = countryProvider.countries[index];
 
             return Card(
+              color: Colors.blueAccent.withOpacity(0.5),
               margin: EdgeInsets.only(bottom: 16.0),
-              elevation: 4,
+              elevation: 2,
+              shadowColor: Colors.blueAccent,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(12),
               ),
@@ -75,7 +77,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   style: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.w600,
-                    color: Colors.black87,
+                    color: Colors.white,
                   ),
                 ),
                 onTap: () {

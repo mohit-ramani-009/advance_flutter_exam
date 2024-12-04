@@ -28,8 +28,6 @@ class _DetailScreenState extends State<DetailScreen> {
       }
     }
   }
-
-
   Future<void> saveCountry() async {
     final prefs = await SharedPreferences.getInstance();
     List<String> savedCountries = prefs.getStringList('savedCountries') ?? [];

@@ -14,7 +14,6 @@ class CountryCard extends StatefulWidget {
 class _CountryCardState extends State<CountryCard> {
   @override
   Widget build(BuildContext context) {
-    // Access the country data from the widget
     final country = widget.country;
 
     return ListTile(
