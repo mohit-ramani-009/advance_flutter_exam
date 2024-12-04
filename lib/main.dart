@@ -1,6 +1,4 @@
-import 'package:advance_flutter_exam/model/country.dart';
 import 'package:advance_flutter_exam/provider/country_provider.dart';
-import 'package:advance_flutter_exam/screens/country_card.dart';
 import 'package:advance_flutter_exam/screens/detail_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
